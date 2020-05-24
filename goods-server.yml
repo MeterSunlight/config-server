@@ -4,7 +4,7 @@ spring:
   main:
     allow-bean-definition-overriding: true
   datasource:
-    url: jdbc:mysql://localhost:3306/shopping
+    url: jdbc:mysql://localhost:3306/shopping?serverTimezone=UTC
     driverClassName: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
